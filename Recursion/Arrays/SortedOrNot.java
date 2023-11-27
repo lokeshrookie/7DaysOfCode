@@ -1,6 +1,5 @@
 package Recursion.Arrays;
 
-import edu.princeton.cs.algs4.In;
 
 import java.util.ArrayList;
 
@@ -24,8 +23,9 @@ public class SortedOrNot {
         ArrayList<Integer> list = new ArrayList<>();
         if(index == arr.length-1) return list;
         if(arr[index] == target) list.add(index);
-        ArrayList<Integer> BeforeAnswer = linearSearch2(arr, target, index+1);
-        list.addAll(BeforeAnswer);
+//        ArrayList<Integer> BeforeAnswer = linearSearch2(arr, target, index+1);
+//        list.addAll(BeforeAnswer);
+        list.addAll(linearSearch2(arr, target, index+1));
         return list;
 
     }
