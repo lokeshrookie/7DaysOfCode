@@ -3,18 +3,8 @@ package Recursion.Arrays;
 public class Search {
     public static void main(String[] args) {
         int[] arr = {3,4,5,0,1,2};
-
-        //algo
-        int pivot = findPivot(arr);
         int targetIndex = rotatedBinary(arr, 0, arr.length-1, 3);
         System.out.println(targetIndex);
-
-
-
-
-//
-//        System.out.println(targetIndex);
-//        System.out.println(findPivot(arr));
     }
 
     private static int rotatedBinary(int[] arr, int start, int end, int target ) {
