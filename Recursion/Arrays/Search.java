@@ -12,7 +12,7 @@ public class Search {
         int mid = start + (end - start)/2;
         if(arr[mid] == target) return  mid;
 
-        if(arr[start] < arr[mid]){ // left array is sorted.
+        if(arr[start] <= arr[mid]){ // left array is sorted.
             if(target >= arr[start] && target <=arr[mid]){
                 return rotatedBinary(arr,0, mid, target);
             }
