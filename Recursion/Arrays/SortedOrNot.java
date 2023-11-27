@@ -44,9 +44,13 @@ public class SortedOrNot {
         }
 //        return arr[index]<arr[index+1] && isSorted(arr, index+1);
     }
-
-    public int rotatedBinarySearch(int[] arr, int start, int end, int target){
-        return -1;
-    }
+//
+//    public int rotatedBinarySearch(int[] arr, int start, int end, int target){
+//        for (int i = 0; i < ; i++) {
+//
+//        }
+//        return -1;
+//
+//    }
 
 }
